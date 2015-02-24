@@ -30,6 +30,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Parsing](#parsing)
 - [Humanize](#humanize)
 - [Compression](#compression)
+- [Cryptography](#cryptography)
 - [Network](#network)
 - [Data Stores](#data-stores)
 - [Testing](#testing)
@@ -130,6 +131,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 
 
 ### OpenResty
+- [awesome-resty](https://github.com/bungle/awesome-resty) - A list like this one, but focused on OpenResty.
 - Core platform
   - [ngx_lua](http://wiki.nginx.org/HttpLuaModule) - The core piece of OpenResty. Embeds Lua in Nginx and exposes, among other things, the cosocket API for non-blocking sockets (compatible with LuaSocket's API).
   - [OpenResty GitHub Organization](https://github.com/openresty) - Home of the repositories for ngx_lua, ngx_openresty, and many related modules.
@@ -168,6 +170,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Documentation
 - [LDoc](http://stevedonovan.github.io/ldoc/) - Documentation generator which modernizes and extends [LuaDoc](http://keplerproject.github.io/luadoc/).
+- [Locco](http://rgieseke.github.io/locco/) - Lua port of [Docco](http://jashkenas.github.io/docco/), the "quick-and-dirty, hundred-line-long, literate-programming-style documentation generator".
 
 
 ### Object-oriented Programming
@@ -229,6 +232,11 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lua-zip](https://github.com/brimworks/lua-zip) - Lua binding to libzip. Reads and writes zip files.
 
 
+### Cryptography
+- [LuaCrypto](https://github.com/mkottman/luacrypto) - Lua bindings to OpenSSL.
+- [lua-lockbox](https://github.com/somesocks/lua-lockbox) - A collection of cryptographic primitives written in pure Lua.
+
+
 ### Network
 - [LuaSocket](https://github.com/diegonehab/luasocket) - Networking extension which provides a socket API for TCP and UDP, and implements HTTP, FTP, and SMTP.
 - [lua-websockets](https://github.com/lipp/lua-websockets) - WebSocket client and server modules. Webserver-agnostic, implemented in Lua on top of LuaSocket.
@@ -270,7 +278,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Scriptable by Lua
 - [luakit](http://mason-larobina.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua.
-- [mjolnir](http://mjolnir.io/) - OS X desktop environment manager, scripted with Lua. Formerly known as hydra.
+- [Hammerspoon](http://www.hammerspoon.org) - A powerful, extensible OS X automation tool. A community-maintained fork of [Mjolnir](http://mjolnir.io).
 - [kpie](https://github.com/skx/kpie) - A scripting utility to juggle windows.
 - [lumail](http://lumail.org/) - A console-based mail client, with extensive scripting capabilities.
 - [AwesomeWM](http://awesome.naquadah.org) - A highly configurable and extensible window manager for X, scripted and configured by Lua.
@@ -285,7 +293,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ## Resources
 
 ### References
-- [Reference Manual](http://www.lua.org/manual/5.2/) - The official definition of the Lua language.
+- [Reference Manual](http://www.lua.org/manual/5.3/) - The official definition of the Lua language.
 - [lua-users wiki](http://lua-users.org/wiki/) - A large community-maintained collection of Lua information and resources, supplementing the official website.
 - [Lua Unofficial FAQ](http://www.luafaq.org/) - Answers all sorts of Lua-related questions, including many of the form 'How to ___?'.
 - [lua-l](http://www.lua.org/lua-l.html) - The official Lua mailing list, and one of the focal points of the Lua community.
